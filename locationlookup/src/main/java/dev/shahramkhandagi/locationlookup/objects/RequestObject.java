@@ -16,6 +16,7 @@ public class RequestObject<T> extends JsonRequest<T> {
     private final Response.Listener<T> responseListener;
 
 
+    // object request
     public RequestObject(int method, String url, Class<T> classContent, String json,
                          Response.Listener<T> responseListener, Response.ErrorListener errorListener) {
         super(method, url, json, responseListener, errorListener);
@@ -25,6 +26,7 @@ public class RequestObject<T> extends JsonRequest<T> {
 
 
 
+    // override parsing Network Response //
     @Override
     protected Response<T> parseNetworkResponse(NetworkResponse response) {
         try {
@@ -44,6 +46,7 @@ public class RequestObject<T> extends JsonRequest<T> {
 
 
 
+    // override deliver response ///
     @Override
     protected void deliverResponse(T response) {
         responseListener.onResponse(response);

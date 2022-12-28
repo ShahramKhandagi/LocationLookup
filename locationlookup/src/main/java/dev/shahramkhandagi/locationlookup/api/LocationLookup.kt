@@ -23,6 +23,7 @@ class LocationLookup(requestQueue: RequestQueue) {
             RequestObject(
                 Request.Method.GET, URL, Fields::class.java, null, responseListener, errorListener
             )
+        // adding data
         requestRow.add(requestToGetData)
     }
 
