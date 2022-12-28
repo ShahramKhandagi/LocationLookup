@@ -77,9 +77,9 @@ locationLookup.getLocationData({ response ->
     val zipCode = response.zipCode!!
 
 
-    }) { error
-      -> val errorMessage: String = error.toString()
-    }
+ }) { error
+    -> val errorMessage: String = error.toString()
+ }
 ```
 
 
