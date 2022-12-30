@@ -8,7 +8,7 @@
 [![Donate](https://img.shields.io/badge/donate-Buy%20Coffee-yellow)](https://www.buymeacoffee.com/shahramkhaE)
 
 
-A Simple library for Android to get Location info like\
+A Simple library for Android to get Location info like
  - Country
  - CountryCode
  - Region
@@ -19,7 +19,7 @@ A Simple library for Android to get Location info like\
  - Longitude
  - Timezone
  - Currency
- - Ip
+ - Ip \
 And this information is taken from the [IP-API-JSON](http://ip-api.com/json) using [Volley](https://google.github.io/volley/)
 
 # How to Implement
