@@ -9,17 +9,17 @@
 
 
 A Simple library for Android to get Location info like\
- - Country\
- - CountryCode\
- - Region\
- - RegionName\
- - City\
- - ZipCode\
- - Latitude\
- - Longitude\
- - Timezone\
- - Currency\
- - Ip\
+ - Country
+ - CountryCode
+ - Region
+ - RegionName
+ - City
+ - ZipCode
+ - Latitude
+ - Longitude
+ - Timezone
+ - Currency
+ - Ip
 And this information is taken from the [IP-API-JSON](http://ip-api.com/json) using [Volley](https://google.github.io/volley/)
 
 # How to Implement
