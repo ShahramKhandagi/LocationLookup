@@ -19,7 +19,7 @@ A Simple library for Android to get Location info like
  - Longitude
  - Timezone
  - Currency
- - Ip \
+ - Ip
 
 # How to Implement
 To get a Git project into your build:
