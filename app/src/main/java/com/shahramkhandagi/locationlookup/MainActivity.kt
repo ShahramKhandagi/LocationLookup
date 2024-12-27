@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         bind()
 
 
-        // usage
+        // how to use
         val locationLookup = LocationLookup(Volley.newRequestQueue(this))
         locationLookup.getLocationData({ response ->
 
